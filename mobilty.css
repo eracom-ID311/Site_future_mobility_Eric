@@ -1,0 +1,127 @@
+@import url("sources/fonts/CanyonRFont/CanyonRFont.css");
+
+.row {
+  display: flex;
+  gap: 2rem;
+}
+.row > * {
+  flex: 1;
+}
+
+body {
+  font-family: "CanyonR";
+  background-color: black;
+  text-align: center;
+}
+
+html body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+section {
+  margin: 20rem;
+}
+header {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* pour centrer les contenus du header*/
+
+header .container {
+  color: white;
+  max-width: 30rem;
+}
+
+header .container img {
+  filter: invert(100%);
+}
+
+header {
+  position: relative;
+}
+#bkgDecoVid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: blur(16px);
+}
+
+section {
+  padding-bottom: 2rem;
+}
+
+section video {
+  width: 100%;
+}
+
+.fiveimages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fiveimages img {
+  margin: 0;
+}
+
+.twoimages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fiveimages img {
+  width: 15%;
+}
+
+.twoimages img {
+  width: 40%;
+}
+
+.twoimages video {
+  width: 40%;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  filter: invert(100%);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
